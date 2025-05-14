@@ -97,6 +97,11 @@ body {
   white-space: nowrap;
 }
 
+#page2 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
 #page2 > video {
   height: 100%;
   width: 100%;
@@ -104,11 +109,38 @@ body {
 }
 #page2 > h1 {
   font-size: 4vw;
-  color: #fff;
-  font-weight: 400;
   position: absolute;
   bottom: 20%;
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+#page3 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+#page3 > img {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#page3-upper {
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  background-color: green;
+  z-index: 9;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
 }
